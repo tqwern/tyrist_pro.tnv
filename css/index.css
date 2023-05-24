@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  cursor: pointer;
+}
+
+/* ---начало шапки--- */
+
+.nav {
+  display: flex;
+  background-color: rgba(168, 222, 230, 0.557);
+}
+
+.logo {
+  padding-left: 251.500px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(101, 145, 172, 0.908);
+  margin: 10px 648px 8px 0px;
+}
+
+.info_nav {
+  margin-top: 22px;
+  font-size: 17px;
+  font-weight: 600;
+  right: 0px;
+}
+
+.info_nav a {
+  color: rgba(28, 46, 59, 0.908);
+}
+
+.info_nav a:hover {
+  color: rgba(101, 145, 172, 0.908);
+  transition: 0.5s;
+}
+
+.search {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* ---начало шапки--- */
+
+/* ---алгоритм брониования начало--- */
+
+.algorithm_txt {
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(54, 76, 93);
+}
+
+.algorithm_txt h1 {
+  font-size: 50px;
+}
+
+.algorithm_txt p {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+.algorithm {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.add_info {
+  padding-right: 80px;
+  text-align: center;
+}
+
+.add_info p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(54, 76, 93);
+}
+
+/* ---алгоритм брониования конец--- */
+
+/* форма бронирования */
+
+.forma_p {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  margin-left: -800px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  color: rgb(54, 76, 93);
+}
+
+.form_reg {
+  background-image: url(море.jpg);
+  height: 617px;
+  padding: 0 auto;
+  padding-top: 200px;
+  padding-left: 750px;
+  text-align: center;
+}
+
+.registration {
+  background-color: rgba(54, 76, 93, 0.557);
+  border-radius: 20px;
+  padding: 20px 10px 20px 10px;
+  width: 350px;
+  height: 450px;
+}
+
+.form_reg_input {
+  border: 0;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: rgb(44, 62, 75);
+  font-size: 16px;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+}
+
+.form_reg p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.hg {
+  color: #fff;
+}
+
+.form_button{
+  margin-top: 25px;
+  border: 0;
+  padding: 13px 20px;
+  font-size: 17px;
+  text-align: center;
+  color: rgb(44, 62, 75);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Rubik", sans-serif;
+}
+
+/* форма бронирования */
+
+/* ----отзывы начало---- */
+
+.img_avatar_comment {
+  border-radius: 100%;
+  width: 120px;
+  margin-left: 100px;
+}
+
+.block_txt_comment {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.h1_super_tour {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(54, 76, 93);
+  margin-top: 50px;
+  padding: 15px 0 15px 0;
+  background-color: rgba(168, 222, 230, 0.557);
+}
+
+.slogan {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(54, 76, 93);
+  padding-right: 683px;
+}
+
+.txt_comment {
+  width: 1000px;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(54, 76, 93);
+}
+
+.line {
+  border-bottom: 1px solid rgba(54, 76, 93, 0.517);
+  width: 500px;
+  margin-left: 600px;
+}
+
+/* ----отзывы конец---- */
+
+.form_search {
+  margin-top: 60px;
+}
+
+.line_1 {
+  height: 100px;
+}
+
+.stocks {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.form_stocks {
+  padding: 0 30px;
+
+}
+
+.txt_stocks {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.text_stocks {
+  font-family: "Rubik", sans-serif;
+  width: 400px;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: -400px;
+  z-index: 1;
+}
+
+.text_stocks p {
+  color: rgb(242, 249, 255);
+  text-shadow: 2px 5px 1px #22282e;
+
+}
+
+.text_stocks h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 5px 1px #22282e;
+  margin-bottom: 30px;
+}
+
+.colortext {}
+
+.styled {
+  margin-top: 15px;
+  border: 0;
+  padding: 13px 20px;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #0b1732;
+  border-radius: 10px;
+  background-color: rgb(106, 146, 170);
+}
+
+/* ????????? */
+
+.img_vopros {
+  margin-top: 100px;
+}
+
+.email {
+  display: flex;
+  height: 700px;
+  color: rgb(44, 62, 75);
+}
+
+.email_p1 {
+  padding-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.email_background {
+  margin-top: 250px;
+  width: 700px;
+  height: 270px;
+  background-color: rgba(168, 222, 230, 0.557);
+  border-radius: 16px;
+}
+
+.email_p2 {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.email_button {
+  margin-left: 300px;
+  margin-top: 15px;
+  border: 0;
+  padding: 13px 20px;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #0b1732;
+  border-radius: 10px;
+  background-color: rgba(106, 145, 170, 0.754);
+}
+
+.input {
+  height: 30px;
+  width: 200px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.email_p3 {
+  margin-left: 220px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* подвал */
+footer {
+  background-color: rgb(82, 102, 116);
+  height: 300px;
+}
+
+.footer_full {
+  display: flex;
+}
+
+.logo_footer {
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  color: rgba(101, 145, 172, 0.908);
+}
+
+.logo_foot {
+  padding: 70px 0 0 400px;
+}
+
+.logo_footer_p {
+  color: rgba(255, 255, 255, 0.751);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.footer_nav {
+  padding: 70px 150px 0px 150px;
+}
+
+.footer_telefon {
+  padding: 70px 70px 0px 0px;
+}
+.footer_nav a {
+  color: rgba(255, 255, 255, 0.751);
+}
+
+.footer_telefon p, .footer_nav p  {
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.751);
+}
+
+.footer_telefon, .footer_telefon a {
+  color: rgba(255, 255, 255, 0.751);
+}
+
+.line2 {
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
+}
+
+.line2_p {
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.26);
+  font-style: italic;
+  font-size: 14px;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social a {
+  padding-right: 10px;
+}

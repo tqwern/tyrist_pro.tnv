@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/booking.css" />
+  <title>Tyrist-PRO</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <a href="" class="logo">Tyrist-PRO</a>
+      <div class="info_nav">
+        <a href="index.html" style="margin-right: 20px;">ГЛАВНАЯ</a>
+        <a href="seat.html">АКЦИИ</a>
+        <a href="search.html" class="search">ПОИСК</a>
+        <a href="booking.html">УПРАВЛЕНИЕ БРОНИРОВАНИЕМ</a>
+      </div>
+    </div>
+</header>
+<main>
+
+  
+  <div class="form_reg">
+    <h1 class="forma_p">Бронирование</h1>
+    <div class="registration">
+      <p>Выбор региона</p>
+    <input class="form_reg_input" list="cities" />
+    <datalist id="cities">
+      <option value="Мальта"></option>
+      <option value="Ватикан"></option>
+      <option value="Морокко"></option>
+    </datalist>
+    <p>Маршрут</p>
+    <input class="form_reg_input" list="cities" />
+    <datalist id="cities">
+      <option value="Легкий"></option>
+      <option value="Средний"></option>
+      <option value="Продвинутый"></option>
+    </datalist>
+    <p>Зона посещения</p>
+    <input class="form_reg_input" list="cities" />
+    <datalist id="cities">
+      <option value="Музей"></option>
+      <option value="Море"></option>
+      <option value="Горы"></option>
+    </datalist>
+    <p>Предполагаемые даты похода</p>
+    <input class="form_reg_input" type="date" id="start" name="trip-start"
+        value="2023-07-22"
+       min="2023-01-01" max="2024-08-31">
+    <p>Количество участников</p>
+    <input class="form_reg_input" type="number" id="tentacles" name="tentacles"
+       min="1" max="10">
+
+    <div class="hg">
+      <a href=""><input class="form_button" type="button" value="Забронировать"></a>
+    </div>
+  </div>
+
+
+
+<div class="form_dop">
+  <p>Дополнительный услуги:</p>
+
+  <div>
+    <input type="checkbox" id="scales" name="scales">
+    <label class="ha" for="scales">Услуги проводника</label>
+  </div>
+  
+  <div class="label">
+    <input type="checkbox" id="horns" name="horns">
+    <label for="horns">Услуги оренды туристического оборудования</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="horns" name="horns">
+    <label for="horns">Услуги фотографа/видеооператора </label>
+  </div>
+
+  <div class="label">
+    <input type="checkbox" id="horns" name="horns">
+    <label for="horns">Страхование от несчастных случаев</label>
+  </div>
+
+<div class="komment">
+  <p>Введите комментарий:</p>
+  <input type="text">
+</div>
+
+<p class="email_p3">Email:</p> <input class="input" type="text">
+<p class="money">Ваша стоимость: 100 000 ₽</p>
+</div>
+    </div>
+  </div>
+</main>
+<footer>
+    <div class="footer_full">
+      <div class="logo_foot">
+      <a href="" class="logo_footer">Tyrist-PRO</a>
+      <p class="logo_footer_p">Лучший сервис для путешествий!</p>
+      <div class="social">
+        <a href=""><img src="img/insta.png" alt=""></a>
+        <a href=""><img src="img/tw.png" alt=""></a>
+        <a href=""><img src="img/yt.png" alt=""></a>
+        <a href=""><img src="img/tumblr.png" alt=""></a>
+      </div>
+      </div>
+      <div class="footer_nav">
+        <a href="index.html"><p>Главная</p></a>
+        <a href="seat.html"><p>Акции</p></a>
+        <a href="search.html"><p>Поиск</p></a>
+        <a href="booking.html"><p>Управление бронированием</p></a>
+      </div>
+      <div class="footer_telefon">
+        <p>Телефон:<a href=""> 8 (800) 555-33-10</a></p>
+        <p><a href=”http://xxxxxx-m1.wsr.ru/return”>Возврат</a></p>
+        <p><a href=”http://xxxxxx-m1.wsr.ru/feedback”>Обратная связь</a></p>
+      </div>
+    </div>
+    <div class="line2"></div>
+    <p class="line2_p">© 2023 Tyrist-PRO. Все права защещены.</p>
+</footer>
+</body>
+
+</html>

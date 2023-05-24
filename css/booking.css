@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---начало шапки--- */
+
+.nav {
+  display: flex;
+  background-color: rgba(168, 222, 230, 0.557);
+}
+
+.logo {
+  padding-left: 251.5px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(101, 145, 172, 0.908);
+  margin: 10px 648px 8px 0px;
+}
+
+.info_nav {
+  margin-top: 22px;
+  font-size: 17px;
+  font-weight: 600;
+  right: 0px;
+}
+
+.info_nav a {
+  color: rgba(28, 46, 59, 0.908);
+}
+
+.info_nav a:hover {
+  color: rgba(101, 145, 172, 0.908);
+  transition: 0.5s;
+}
+
+.search {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.forma_p {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  margin-left: -400px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  color: rgb(54, 76, 93);
+}
+
+.form_reg {
+  background-image: url(море.jpg);
+  background-size: 100% 100%;
+  height: 675px;
+  padding: 0 auto;
+  padding-top: 200px;
+  padding-left: 350px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration {
+  background-color: rgba(54, 76, 93, 0.557);
+  border-radius: 20px;
+  padding: 20px 10px 20px 10px;
+  width: 350px;
+  height: 550px;
+}
+
+.form_reg_input {
+  border: 0;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: rgb(44, 62, 75);
+  font-size: 16px;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+}
+
+.form_reg p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.hg {
+  color: #fff;
+}
+
+.form_button {
+  margin-top: 25px;
+  border: 0;
+  padding: 13px 20px;
+  font-size: 17px;
+  text-align: center;
+  color: rgb(44, 62, 75);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Rubik", sans-serif;
+}
+
+.form_dop {
+  margin-top: -590px;
+  background-color: rgba(54, 76, 93, 0.557);
+  border-radius: 20px;
+  padding: 20px 10px 20px 10px;
+  width: 650px;
+  height: 550px;
+  margin-left: 450px;
+  text-align: left;
+  padding-left: 35px;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  color: rgb(44, 62, 75);
+}
+
+.form_dop input {
+    background-color: rgba(255, 255, 255, 0.423);
+    font-family: "Rubik", sans-serif;
+    color: rgb(44, 62, 75);
+}
+
+.form_reg_input {
+    background-color: rgba(255, 255, 255, 0.423);
+}
+
+.label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.komment input{
+    background-color: rgba(255, 255, 255, 0.423);
+    border: 0;
+    width: 390px;
+    height: 120px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.email_p3 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.423);
+    height: 40px;
+    width: 390px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.money {
+    padding-top: 15px;
+    font-size: 19px;
+    text-shadow: 1px 1px 1px #0b1732;
+}
+
+/* подвал */
+footer {
+  background-color: rgb(82, 102, 116);
+  height: 300px;
+  margin-top: -20px;
+}
+
+.footer_full {
+  display: flex;
+}
+
+.logo_footer {
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  color: rgba(101, 145, 172, 0.908);
+}
+
+.logo_foot {
+  padding: 70px 0 0 400px;
+}
+
+.logo_footer_p {
+  color: rgba(255, 255, 255, 0.751);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.footer_nav {
+  padding: 70px 150px 0px 150px;
+}
+
+.footer_telefon {
+  padding: 70px 70px 0px 0px;
+}
+
+.footer_nav a {
+  color: rgba(255, 255, 255, 0.751);
+}
+
+.footer_telefon p,
+.footer_nav p {
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.751);
+}
+
+.footer_telefon,
+.footer_telefon a {
+  color: rgba(255, 255, 255, 0.751);
+}
+
+.line2 {
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
+}
+
+.line2_p {
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.26);
+  font-style: italic;
+  font-size: 14px;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social a {
+  padding-right: 10px;
+}

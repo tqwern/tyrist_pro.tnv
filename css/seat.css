@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ---начало шапки--- */
+
+.nav {
+    display: flex;
+    background-color: rgba(168, 222, 230, 0.557);
+}
+
+.logo {
+    padding-left: 251.500px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgba(101, 145, 172, 0.908);
+    margin: 10px 648px 8px 0px;
+}
+
+.info_nav {
+    margin-top: 22px;
+    font-size: 17px;
+    font-weight: 600;
+    right: 0px;
+}
+
+.info_nav a {
+    color: rgba(28, 46, 59, 0.908);
+}
+
+.info_nav a:hover {
+    color: rgba(101, 145, 172, 0.908);
+    transition: 0.5s;
+}
+
+.search {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* акции */
+
+.all_stock {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgba(168, 222, 230, 0.557);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.styled {
+    margin-top: 15px;
+    border: 0;
+    padding: 13px 20px;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #0b1732;
+    border-radius: 10px;
+    background-color: rgb(106, 146, 170);
+}
+
+.text_stock {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.text_stock h1 {
+    margin-bottom: 20px;
+    color: rgb(64, 91, 107);;
+}
+
+.text_stock input {
+    margin-top: 25px;
+}
+
+.text_stock p {
+    font-size: 17px;
+    color: rgb(44, 62, 75);
+    text-indent: 10px;
+    font-size: 18px;
+}
+
+.h1_main {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
+    color: rgb(54, 76, 93);
+}
+
+.p_main {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-style: italic;
+    color: rgb(54, 76, 93);
+}
+
+
+/* подвал */
+footer {
+    background-color: rgb(82, 102, 116);
+    height: 300px;
+    margin-top: 50px;
+}
+
+.footer_full {
+    display: flex;
+}
+
+.logo_footer {
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: rgba(101, 145, 172, 0.908);
+}
+
+.logo_foot {
+    padding: 70px 0 0 400px;
+}
+
+.logo_footer_p {
+    color: rgba(255, 255, 255, 0.751);
+    font-size: 14px;
+    font-style: italic;
+}
+
+.footer_nav {
+    padding: 70px 150px 0px 150px;
+}
+
+.footer_telefon {
+    padding: 70px 70px 0px 0px;
+}
+
+.footer_nav a {
+    color: rgba(255, 255, 255, 0.751);
+}
+
+.footer_telefon p,
+.footer_nav p {
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.751);
+}
+
+.footer_telefon,
+.footer_telefon a {
+    color: rgba(255, 255, 255, 0.751);
+}
+
+.line2 {
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 800px;
+}
+
+.line2_p {
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.26);
+    font-style: italic;
+    font-size: 14px;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.social a {
+    padding-right: 10px;
+}
